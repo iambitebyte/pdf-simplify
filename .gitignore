@@ -7,6 +7,18 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+=======
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+>>>>>>> 77b9f72 (Initial commit: Rename to pdf-simplify and fix PDF generation)
 .Python
 build/
 develop-eggs/
@@ -20,6 +32,10 @@ parts/
 sdist/
 var/
 wheels/
+<<<<<<< HEAD
+=======
+pip-wheel-metadata/
+>>>>>>> 77b9f72 (Initial commit: Rename to pdf-simplify and fix PDF generation)
 share/python-wheels/
 *.egg-info/
 .installed.cfg
@@ -205,3 +221,34 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+=======
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+uv/
+.uv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+# Outputs
+summaries/
+*.pdf
+*.md
+!README.md
+
+# Logs
+*.log

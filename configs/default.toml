@@ -1,0 +1,19 @@
+# LLM Configuration
+[llm]
+provider = "openai"  # Options: openai, anthropic, azure, local
+model = "gpt-4"
+api_key = ""  # Or set PDF_SIMPLIFY_API_KEY environment variable
+temperature = 0.3
+max_tokens = 4000
+
+# Summary Configuration
+[summary]
+level = "detailed"  # Options: detailed, concise, minimal
+chunk_size = 4000
+chunk_overlap = 200
+
+# Output Configuration
+[output]
+format = "markdown"  # Options: markdown, json, html
+include_outline = true
+include_key_concepts = true
